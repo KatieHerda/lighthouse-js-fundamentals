@@ -1,3 +1,4 @@
+//Conditional statement about the weather
 const temperature = -2;
 
 if (temperature < 0) {
@@ -9,3 +10,24 @@ if (temperature < 0) {
 }
 
 console.log("Now you're ready to go outside!");
+
+//logical AND example
+const isCitizen = true;
+const age = 26;
+
+if (isCitizen && age > 18) {
+  console.log("You are eligible to vote.");
+}
+
+//logical OR example
+const temperature2 = -50;
+
+if(temperature2 < -40 || temperature2 > 40) {
+  console.log("Maybe going outside isn't such a great idea...")
+}
+
+//logical NOT example.
+const raining = false;
+if (!raining) {
+  console.log("Leave your umbrella at home!");
+}
